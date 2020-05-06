@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+label {
+  margin-top: 10px;
+  float: left;
+}
+.btn{
+  float: left;
+}
+.modalWrapper button {
+  background-color: blue;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  width: 28px;
+  height: 28px;
+}
+.table-dark td, .table-dark th, .table-dark thead th {
+  border-color: #dee2e6 !important;
+}
+.table-dark {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+.table-dark.table-hover tbody tr:hover{
+  color: #000 !important;
+}
+.ReactModal__Content.ReactModal__Content--after-open {
+  width: 60%;
+  margin: 0 auto;
+  height: 70%;
+}
+.react-datepicker-wrapper {
+  display: block  !important;
+}
