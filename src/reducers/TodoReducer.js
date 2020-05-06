@@ -5,21 +5,21 @@ import { ADD_TODO, REMOVE_TODO, TOGGLE_TODO} from '../actions/actionsTypes'
 const INITIAL_DATA =  [
     {
         id: 0,
-        text: 'Learn new language',
+        text: 'Walk the Dog',
         description: 'test',
         priority: 'High',
         duedate: '5/5/2020, 9:35:47 PM'
     },
     {
       id: 1,
-      text: 'Learn new language',
+      text: 'Walk the Dog',
       description: 'test',
       priority: 'Low',
       duedate: '5/5/2020, 9:35:47 PM'
   },
   {
     id: 2,
-    text: 'Learn new language',
+    text: 'Walk the Dog',
     description: 'test',
     priority: 'Medium',
     duedate: '5/5/2020, 9:35:47 PM'
